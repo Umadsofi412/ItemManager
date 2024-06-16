@@ -25,7 +25,8 @@ const ItemForm = () => {
             })
     }
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="form-main">
+            <h1>Item Manager</h1>
             <div>
                 <label>Name</label>
                 <input type="text" value={name} onChange={e => setName(e.target.value)}></input>

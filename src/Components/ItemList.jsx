@@ -14,7 +14,7 @@ import { useState } from "react";
     },[]);
 
     return(
-        <div>
+        <div className="item-list">
             <h1>Items List</h1>
             <ul>
                 {items.map((item) => (

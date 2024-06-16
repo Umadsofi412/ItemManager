@@ -4,10 +4,9 @@ import ItemForm from './Components/ItemForm';
 
 function App() {
   return (
-    <div>
-      <h1>Item Manager</h1>
+    <div className="Main">
       <ItemForm />
-      <ListItem />
+      <ListItem  />
     </div>
   );
 }
